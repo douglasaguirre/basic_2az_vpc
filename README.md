@@ -45,7 +45,9 @@ Este repositório contém um conjunto de arquivos Terraform para criar uma infra
 
 4. Valide a configuração:
    ```bash
+   terraform fmt
    terraform validate
+   terraform plan
    ```
 
 5. Aplique a infraestrutura:
