@@ -1,0 +1,18 @@
+# Diretórios e arquivos criados automaticamente
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de plano e estado
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Arquivos do Terraform Cloud
+terraform.tfvars.json
+
+# Arquivos temporários ou do sistema
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
