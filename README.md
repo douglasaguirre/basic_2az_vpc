@@ -1,7 +1,5 @@
 
-# Terraform VPC Setup with Bastion Host and NAT Gateway
-
-Este repositório contém um conjunto de arquivos Terraform para criar uma infraestrutura básica na AWS. Ele configura uma VPC, subnets públicas e privadas, bastion hosts, NAT Gateways, uma Internet Gateway e as regras de segurança para permitir o acesso remoto via SSH.
+Este repositório contém um conjunto de arquivos Terraform para criar uma infraestrutura básica na AWS. Ele configura uma VPC, subnets públicas e privadas, bastion hosts, NAT Gateways, uma Internet Gateway e as regras de segurança para permitir o acesso remoto via SSH partindo do IP público que executar o terraform.
 
 ## Estrutura
 
